@@ -6,13 +6,12 @@ const server = jsonServer.create()
 const router = jsonServer.router(path.join(__dirname, 'db.json'))
 const middlewares = jsonServer.defaults()
 
-const corsOptions = {
+server.use(cors({
     origin: 'http://localhost:5173',
-    credentials: true,
-    optionSuccessStatus: 200,
-}
-
-// server.use(cors(corsOptions))
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'HEAD', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Origin', 'X-Requested-With', 'Accept', 'x-client-key', 'x-client-token', 'x-client-secret', 'Authorization'],
+    credentials: true
+}))
 server.use(jsonServer.bodyParser)
 server.use(middlewares)
 server.use(router)
