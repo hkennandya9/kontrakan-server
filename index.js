@@ -7,7 +7,7 @@ const router = jsonServer.router(path.join(__dirname, 'db.json'))
 const middlewares = jsonServer.defaults()
 
 server.use(cors({
-    origin: 'kontrakan-payment',
+    origin: 'http://localhost:5173',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'HEAD', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Origin', 'X-Requested-With', 'Accept', 'x-client-key', 'x-client-token', 'x-client-secret', 'Authorization'],
     credentials: true
