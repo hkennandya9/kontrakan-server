@@ -7,7 +7,7 @@ const router = jsonServer.router(path.join(__dirname, 'db.json'))
 const middlewares = jsonServer.defaults()
 
 const corsOptions = {
-    origin: 'http://localhost:5173/',
+    origin: 'http://localhost:5173',
     credentials: true,
     optionSuccessStatus: 200,
 }
