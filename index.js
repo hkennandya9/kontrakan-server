@@ -7,9 +7,8 @@ const router = jsonServer.router(path.join(__dirname, 'db.json'))
 const middlewares = jsonServer.defaults()
 
 server.use(cors({
-    origin: 'http://localhost:5173',
+    origin: true,
     credentials: true,
-    optionSuccessStatus: 200,
 }))
 server.use(jsonServer.bodyParser)
 server.use(middlewares)
