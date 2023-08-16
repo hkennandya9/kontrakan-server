@@ -12,7 +12,7 @@ const corsOptions = {
     optionSuccessStatus: 200,
 }
 
-server.use(cors(corsOptions))
+// server.use(cors(corsOptions))
 server.use(jsonServer.bodyParser)
 server.use(middlewares)
 server.use(router)
