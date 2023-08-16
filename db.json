@@ -1,0 +1,487 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rici",
+      "prodi": "Administrasi Publik",
+      "place": "Tuban"
+    },
+    {
+      "id": 2,
+      "name": "Alif",
+      "prodi": "Informatika",
+      "place": "Bojonegoro"
+    },
+    {
+      "id": 3,
+      "name": "Azka",
+      "prodi": "Ilmu Komunikasi",
+      "place": "Tuban"
+    },
+    {
+      "id": 4,
+      "name": "Afif",
+      "prodi": "Teknik Lingkungan",
+      "place": "Pekalongan"
+    },
+    {
+      "id": 5,
+      "name": "Hafizh",
+      "prodi": "Informatika",
+      "place": "Bojonegoro"
+    }
+  ],
+  "debts": [
+    {
+      "id": 1,
+      "description": "MNC",
+      "period": "Juni 2023",
+      "total": 317190,
+      "income": 5
+    },
+    {
+      "id": 2,
+      "description": "PDAM",
+      "period": "Juli 2023",
+      "total": 15000,
+      "income": 5
+    },
+    {
+      "id": 3,
+      "description": "PLN",
+      "period": "Juli 2023",
+      "total": 54000,
+      "income": 2
+    },
+    {
+      "id": 4,
+      "description": "Sampah",
+      "period": "Juli 2023",
+      "total": 15000,
+      "income": 5
+    },
+    {
+      "id": 5,
+      "description": "MNC",
+      "period": "Juli 2023",
+      "total": 317190,
+      "income": 5
+    },
+    {
+      "id": 6,
+      "description": "Iuran",
+      "period": "Agustus 2023",
+      "total": 650000,
+      "income": true
+    }
+  ],
+  "bills": [
+    {
+      "id": 1,
+      "debtId": 1,
+      "userId": 1,
+      "nominal": 79000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 31000,
+          "description": "Cicilan"
+        }
+      ],
+      "completed": false
+    },
+    {
+      "id": 2,
+      "debtId": 1,
+      "userId": 2,
+      "nominal": 79000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 79000,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 3,
+      "debtId": 1,
+      "userId": 3,
+      "nominal": 0,
+      "payment": [],
+      "completed": true
+    },
+    {
+      "id": 4,
+      "debtId": 1,
+      "userId": 4,
+      "nominal": 79000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 79000,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 5,
+      "debtId": 1,
+      "userId": 5,
+      "nominal": 79000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 79000,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 6,
+      "debtId": 2,
+      "userId": 1,
+      "nominal": 3000,
+      "payment": [],
+      "completed": false
+    },
+    {
+      "id": 7,
+      "debtId": 2,
+      "userId": 2,
+      "nominal": 3000,
+      "payment": [],
+      "completed": false
+    },
+    {
+      "id": 8,
+      "debtId": 2,
+      "userId": 3,
+      "nominal": 0,
+      "payment": [],
+      "completed": true
+    },
+    {
+      "id": 9,
+      "debtId": 2,
+      "userId": 4,
+      "nominal": 3000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 3000,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 10,
+      "debtId": 2,
+      "userId": 5,
+      "nominal": 3000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 3000,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 11,
+      "debtId": 3,
+      "userId": 1,
+      "nominal": 13500,
+      "payment": [],
+      "completed": false
+    },
+    {
+      "id": 12,
+      "debtId": 3,
+      "userId": 2,
+      "nominal": 13500,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 13500,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 13,
+      "debtId": 3,
+      "userId": 3,
+      "nominal": 0,
+      "payment": [],
+      "completed": true
+    },
+    {
+      "id": 14,
+      "debtId": 3,
+      "userId": 4,
+      "nominal": 13500,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 13500,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 15,
+      "debtId": 3,
+      "userId": 5,
+      "nominal": 13500,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 13500,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 16,
+      "debtId": 4,
+      "userId": 1,
+      "nominal": 4000,
+      "payment": [],
+      "completed": false
+    },
+    {
+      "id": 17,
+      "debtId": 4,
+      "userId": 2,
+      "nominal": 4000,
+      "payment": [],
+      "completed": false
+    },
+    {
+      "id": 18,
+      "debtId": 4,
+      "userId": 3,
+      "nominal": 0,
+      "payment": [],
+      "completed": true
+    },
+    {
+      "id": 19,
+      "debtId": 4,
+      "userId": 4,
+      "nominal": 4000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 4000,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 20,
+      "debtId": 4,
+      "userId": 5,
+      "nominal": 4000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 4000,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 21,
+      "debtId": 5,
+      "userId": 1,
+      "nominal": 79000,
+      "payment": [],
+      "completed": false
+    },
+    {
+      "id": 22,
+      "debtId": 5,
+      "userId": 2,
+      "nominal": 79000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 13500,
+          "description": "Cicilan"
+        }
+      ],
+      "completed": false
+    },
+    {
+      "id": 23,
+      "debtId": 5,
+      "userId": 3,
+      "nominal": 0,
+      "payment": [],
+      "completed": true
+    },
+    {
+      "id": 24,
+      "debtId": 5,
+      "userId": 4,
+      "nominal": 79000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 79000,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 25,
+      "debtId": 5,
+      "userId": 5,
+      "nominal": 790000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 79000,
+          "description": "Pelunasan"
+        }
+      ],
+      "completed": true
+    },
+    {
+      "id": 26,
+      "debtId": 6,
+      "userId": 1,
+      "nominal": 50000,
+      "payment": [],
+      "completed": false
+    },
+    {
+      "id": 27,
+      "debtId": 6,
+      "userId": 2,
+      "nominal": 150000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 50000,
+          "description": "Cicilan"
+        }
+      ],
+      "completed": false
+    },
+    {
+      "id": 28,
+      "debtId": 6,
+      "userId": 3,
+      "nominal": 150000,
+      "payment": [],
+      "completed": false
+    },
+    {
+      "id": 29,
+      "debtId": 6,
+      "userId": 4,
+      "nominal": 150000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 3000,
+          "description": "Cicilan Sampah"
+        }
+      ],
+      "completed": false
+    },
+    {
+      "id": 30,
+      "debtId": 6,
+      "userId": 5,
+      "nominal": 150000,
+      "payment": [
+        {
+          "date": null,
+          "nominal": 89976,
+          "description": "Cicilan"
+        }
+      ],
+      "completed": false
+    }
+  ],
+  "outcome": [
+    {
+      "id": 1,
+      "debtId": 1,
+      "description": "MNC Juni",
+      "date": null,
+      "nominal": 317190
+    },
+    {
+      "id": 2,
+      "debtId": 2,
+      "description": "PDAM Juli",
+      "date": null,
+      "nominal": 15000
+    },
+    {
+      "id": 3,
+      "debtId": 3,
+      "description": "PLN Juli",
+      "date": null,
+      "nominal": 54000
+    },
+    {
+      "id": 4,
+      "debtId": 4,
+      "description": "Sampah Juli",
+      "date": null,
+      "nominal": 15000
+    },
+    {
+      "id": 5,
+      "debtId": 5,
+      "description": "MNC Juli",
+      "date": null,
+      "nominal": 317190
+    },
+    {
+      "id": 6,
+      "debtId": 6,
+      "description": "Sampah Agustus",
+      "date": null,
+      "nominal": 15000
+    },
+    {
+      "id": 7,
+      "debtId": 6,
+      "description": "PLN Agustus",
+      "date": null,
+      "nominal": 23819
+    },
+    {
+      "id": 8,
+      "debtId": 6,
+      "description": "PDAM Agustus",
+      "date": null,
+      "nominal": 11440
+    },
+    {
+      "id": 9,
+      "debtId": 6,
+      "description": "Beras 3 KG",
+      "date": null,
+      "nominal": 39000
+    }
+  ]
+}
